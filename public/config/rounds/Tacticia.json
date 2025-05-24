@@ -1,0 +1,104 @@
+{
+  "stadion": "Tacticia",
+  "rounds": [
+    {
+      "id": 1,
+      "operation": "multiplication",
+      "range": [1, 5],
+      "questions": [
+        { "a": 1, "b": 2 },
+        { "a": 2, "b": 2 },
+        { "a": 1, "b": 5 },
+        { "a": 3, "b": 2 },
+        { "a": 2, "b": 3 },
+        { "a": 4, "b": 1 },
+        { "a": 5, "b": 1 },
+        { "a": 3, "b": 3 },
+        { "a": 4, "b": 2 },
+        { "a": 5, "b": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "operation": "multiplication",
+      "range": [1, 10],
+      "questions": [
+        { "a": 2,  "b": 4 },
+        { "a": 3,  "b": 5 },
+        { "a": 4,  "b": 3 },
+        { "a": 5,  "b": 2 },
+        { "a": 6,  "b": 2 },
+        { "a": 7,  "b": 2 },
+        { "a": 8,  "b": 2 },
+        { "a": 9,  "b": 2 },
+        { "a": 10, "b": 2 },
+        { "a": 10, "b": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "operation": "multiplication",
+      "range": [1, 10],
+      "questions": [
+        { "a": 3,  "b": 6 },
+        { "a": 4,  "b": 4 },
+        { "a": 5,  "b": 3 },
+        { "a": 6,  "b": 3 },
+        { "a": 7,  "b": 3 },
+        { "a": 8,  "b": 3 },
+        { "a": 9,  "b": 3 },
+        { "a": 10, "b": 3 },
+        { "a": 5,  "b": 5 },
+        { "a": 6,  "b": 4 }
+      ]
+    },
+    {
+      "id": 4,
+      "operation": "multiplication",
+      "range": [1, 10],
+      "questions": [
+        { "a": 4,  "b": 5 },
+        { "a": 5,  "b": 4 },
+        { "a": 6,  "b": 5 },
+        { "a": 7,  "b": 4 },
+        { "a": 8,  "b": 4 },
+        { "a": 9,  "b": 4 },
+        { "a": 10, "b": 4 },
+        { "a": 5,  "b": 6 },
+        { "a": 6,  "b": 6 },
+        { "a": 7,  "b": 6 }
+      ]
+    },
+    {
+      "id": 5,
+      "operation": "multiplication",
+      "range": [1, 10],
+      "questions": [
+        { "a": 8,  "b": 5 },
+        { "a": 9,  "b": 5 },
+        { "a": 10, "b": 5 },
+        { "a": 6,  "b": 7 },
+        { "a": 7,  "b": 7 },
+        { "a": 8,  "b": 7 },
+        { "a": 9,  "b": 7 },
+        { "a": 10, "b": 7 },
+        { "a": 6,  "b": 8 },
+        { "a": 7,  "b": 8 }
+      ]
+    }
+  ],
+  "bossBattle": {
+    "questions": [
+      { "operation": "multiplication", "a": 2,  "b": 5 },
+      { "operation": "multiplication", "a": 3,  "b": 6 },
+      { "operation": "multiplication", "a": 4,  "b": 7 },
+      { "operation": "multiplication", "a": 5,  "b": 8 },
+      { "operation": "multiplication", "a": 6,  "b": 9 },
+      { "operation": "multiplication", "a": 7,  "b": 10},
+      { "operation": "multiplication", "a": 8,  "b": 9 },
+      { "operation": "multiplication", "a": 9,  "b": 10},
+      { "operation": "multiplication", "a": 10, "b": 10},
+      { "operation": "multiplication", "a": 5,  "b": 5 }
+    ]
+  }
+}

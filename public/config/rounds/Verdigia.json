@@ -1,0 +1,104 @@
+{
+  "stadion": "Verdigia",
+  "rounds": [
+    {
+      "id": 1,
+      "operation": "subtraction",
+      "range": [0, 20],
+      "questions": [
+        { "a": 20, "b": 5  },
+        { "a": 18, "b": 3  },
+        { "a": 15, "b": 7  },
+        { "a": 12, "b": 4  },
+        { "a": 10, "b": 10 },
+        { "a": 19, "b": 1  },
+        { "a": 17, "b": 9  },
+        { "a": 14, "b": 6  },
+        { "a": 8,  "b": 2  },
+        { "a": 16, "b": 8  }
+      ]
+    },
+    {
+      "id": 2,
+      "operation": "subtraction",
+      "range": [0, 40],
+      "questions": [
+        { "a": 40, "b": 10 },
+        { "a": 35, "b": 5  },
+        { "a": 30, "b": 15 },
+        { "a": 25, "b": 20 },
+        { "a": 38, "b": 18 },
+        { "a": 33, "b": 13 },
+        { "a": 28, "b": 8  },
+        { "a": 22, "b": 12 },
+        { "a": 19, "b": 9  },
+        { "a": 24, "b": 14 }
+      ]
+    },
+    {
+      "id": 3,
+      "operation": "subtraction",
+      "range": [0, 60],
+      "questions": [
+        { "a": 60, "b": 30 },
+        { "a": 55, "b": 25 },
+        { "a": 50, "b": 20 },
+        { "a": 45, "b": 15 },
+        { "a": 40, "b": 10 },
+        { "a": 38, "b": 18 },
+        { "a": 33, "b": 13 },
+        { "a": 27, "b": 7  },
+        { "a": 24, "b": 4  },
+        { "a": 36, "b": 6  }
+      ]
+    },
+    {
+      "id": 4,
+      "operation": "subtraction",
+      "range": [0, 80],
+      "questions": [
+        { "a": 80, "b": 40 },
+        { "a": 75, "b": 35 },
+        { "a": 70, "b": 30 },
+        { "a": 65, "b": 25 },
+        { "a": 60, "b": 20 },
+        { "a": 58, "b": 18 },
+        { "a": 53, "b": 13 },
+        { "a": 48, "b": 8  },
+        { "a": 43, "b": 3  },
+        { "a": 78, "b": 28 }
+      ]
+    },
+    {
+      "id": 5,
+      "operation": "subtraction",
+      "range": [0, 100],
+      "questions": [
+        { "a": 100, "b": 50 },
+        { "a": 95,  "b": 45 },
+        { "a": 90,  "b": 40 },
+        { "a": 85,  "b": 35 },
+        { "a": 80,  "b": 30 },
+        { "a": 75,  "b": 25 },
+        { "a": 70,  "b": 20 },
+        { "a": 65,  "b": 15 },
+        { "a": 60,  "b": 10 },
+        { "a": 55,  "b": 5  }
+      ]
+    }
+  ],
+  "bossBattle": {
+    "questions": [
+      { "operation": "subtraction", "a": 30, "b": 10 },
+      { "operation": "subtraction", "a": 45, "b": 15 },
+      { "operation": "subtraction", "a": 60, "b": 20 },
+      { "operation": "subtraction", "a": 75, "b": 25 },
+      { "operation": "subtraction", "a": 90, "b": 30 },
+      { "operation": "subtraction", "a": 55, "b": 5  },
+      { "operation": "subtraction", "a": 48, "b": 8  },
+      { "operation": "subtraction", "a": 39, "b": 9  },
+      { "operation": "subtraction", "a": 70, "b": 10 },
+      { "operation": "subtraction", "a": 85, "b": 35 }
+    ]
+  }
+}

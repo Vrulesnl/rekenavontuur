@@ -1,0 +1,104 @@
+{
+  "stadion": "Counteria",
+  "rounds": [
+    {
+      "id": 1,
+      "operation": "division",
+      "range": [1, 10],
+      "questions": [
+        { "a": 10, "b": 2 },
+        { "a": 9,  "b": 3 },
+        { "a": 8,  "b": 4 },
+        { "a": 6,  "b": 2 },
+        { "a": 15, "b": 3 },
+        { "a": 12, "b": 4 },
+        { "a": 14, "b": 7 },
+        { "a": 18, "b": 6 },
+        { "a": 20, "b": 5 },
+        { "a": 16, "b": 4 }
+      ]
+    },
+    {
+      "id": 2,
+      "operation": "division",
+      "range": [1, 20],
+      "questions": [
+        { "a": 20, "b": 4 },
+        { "a": 18, "b": 3 },
+        { "a": 24, "b": 6 },
+        { "a": 30, "b": 5 },
+        { "a": 27, "b": 9 },
+        { "a": 36, "b": 6 },
+        { "a": 40, "b": 8 },
+        { "a": 45, "b": 9 },
+        { "a": 32, "b": 8 },
+        { "a": 28, "b": 7 }
+      ]
+    },
+    {
+      "id": 3,
+      "operation": "division",
+      "range": [1, 30],
+      "questions": [
+        { "a": 30, "b": 5 },
+        { "a": 25, "b": 5 },
+        { "a": 24, "b": 6 },
+        { "a": 21, "b": 7 },
+        { "a": 27, "b": 9 },
+        { "a": 18, "b": 6 },
+        { "a": 16, "b": 4 },
+        { "a": 15, "b": 3 },
+        { "a": 14, "b": 2 },
+        { "a": 12, "b": 4 }
+      ]
+    },
+    {
+      "id": 4,
+      "operation": "division",
+      "range": [1, 40],
+      "questions": [
+        { "a": 40, "b": 5 },
+        { "a": 35, "b": 7 },
+        { "a": 32, "b": 8 },
+        { "a": 28, "b": 7 },
+        { "a": 36, "b": 6 },
+        { "a": 30, "b": 6 },
+        { "a": 24, "b": 6 },
+        { "a": 42, "b": 7 },
+        { "a": 48, "b": 6 },
+        { "a": 20, "b": 4 }
+      ]
+    },
+    {
+      "id": 5,
+      "operation": "division",
+      "range": [1, 50],
+      "questions": [
+        { "a": 50, "b": 5 },
+        { "a": 45, "b": 9 },
+        { "a": 40, "b": 8 },
+        { "a": 36, "b": 6 },
+        { "a": 30, "b": 5 },
+        { "a": 28, "b": 7 },
+        { "a": 24, "b": 6 },
+        { "a": 21, "b": 7 },
+        { "a": 20, "b": 4 },
+        { "a": 18, "b": 3 }
+      ]
+    }
+  ],
+  "bossBattle": {
+    "questions": [
+      { "operation": "division", "a": 20, "b": 4 },
+      { "operation": "division", "a": 30, "b": 6 },
+      { "operation": "division", "a": 36, "b": 9 },
+      { "operation": "division", "a": 40, "b": 8 },
+      { "operation": "division", "a": 45, "b": 9 },
+      { "operation": "division", "a": 48, "b": 6 },
+      { "operation": "division", "a": 50, "b": 5 },
+      { "operation": "division", "a": 42, "b": 7 },
+      { "operation": "division", "a": 56, "b": 8 },
+      { "operation": "division", "a": 64, "b": 8 }
+    ]
+  }
+}
