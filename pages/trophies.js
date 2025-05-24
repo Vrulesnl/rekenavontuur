@@ -7,24 +7,24 @@ export default function Trophies({ player }) {
 
   useEffect(() => {
     if (!player) return;
-    const unsubscribe = subscribeProgress(player, setData);
-    return () => unsubscribe();
+    const unsub = subscribeProgress(player, setData);
+    return () => unsub();
   }, [player]);
 
   if (!player) {
-    return <p>Geef in de URL ?player=Naam mee.</p>;
+    return <p>Geef in de URL <code>?player=Roel</code> mee.</p>;
   }
   if (!data) {
     return <p>Loading…</p>;
   }
-
   return (
     <div>
-      <h1>{player}’s Trofeeënkast</h1>
+      <h1>{player}’s Trofeeën</h1>
       <ul>
         {Object.entries(data).map(([stadion, info]) => (
           <li key={stadion}>
-            {stadion}: {'⭐'.repeat(info.stars)} (laatst: {new Date(info.timestamp).toLocaleDateString()})
+            {stadion}: {'⭐'.repeat(info.stars)} (
+            {new Date(info.timestamp).toLocaleDateString()})
           </li>
         ))}
       </ul>
@@ -32,12 +32,10 @@ export default function Trophies({ player }) {
   );
 }
 
-// Deze functie draait bij elke request en haalt de 'player' uit de URL
+// DIT IS BELANGRIJK: deze functie zorgt voor SSR
 export async function getServerSideProps(context) {
   const { player } = context.query;
   return {
-    props: {
-      player: player || null
-    }
+    props: { player: player || null }
   };
 }
