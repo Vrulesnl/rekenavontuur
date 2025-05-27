@@ -17,7 +17,9 @@ export default function Home() {
           <p>Kies je stadion om te beginnen:</p>
           <ul>
             {stadions.map(s => (
-                <li key={s}><Link href={{pathname: `/stadion/${s}`,query: {players: playerInfo.players.join(',')}}}><a>{s}</a></Link></li>
+                <li key={s}><Link
+                  href={{pathname: `/stadion/${s}`,query: {players: playerInfo.players.join(',')}}}
+                  legacyBehavior><a>{s}</a></Link></li>
             ))}
           </ul>
         </>
@@ -29,4 +31,4 @@ export default function Home() {
         a { text-decoration: none; padding: 0.5rem 1rem; background: #0070f3; color: white; border-radius: 4px; }
       `}</style>
     </div>
-); }
+  ); }
